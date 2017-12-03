@@ -1,0 +1,180 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	color: #000;
+	line-height: 1.5;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+h1 {
+	font-size: 40px;
+}
+h2 {
+	font-size: 30px;
+}
+h3 {
+	font-size: 25px;
+}
+p, li {
+	color:  #606161;
+	font-weight: 600;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+	max-width: 90%;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 700px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.intro {
+	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	text-align: center;
+	color: rgb(255,255,255);
+	min-height: 400px;
+}
+.intro h1 {
+	color: rgb(255,255,255);
+	font-weight: 800;
+	text-align: left;
+}
+.intro p {
+	font-weight: 600;
+	color: rgb(255,255,255);
+	font-size: 20px;
+	margin: 70px 0px;
+}
+.intro a {
+	padding: 10px 45px;
+	border-radius: 5px; 
+	background-color: #f9e42e;
+	text-decoration: none;
+	color: #033048;
+	font-weight: 800;
+}
+.benefits {
+	background-color: #f0efef;
+	padding: 30px;
+	margin: 0 auto;
+}
+.benefits h2 {
+	color: #033048;
+	font-weight: 700;
+	margin: 15px 0px;
+}
+.benefits ul {
+	list-style-type: disc;
+	margin: 30px 60px;
+	font-weight: 300;
+	max-width: 300px;
+}
+.benefits p {
+	font-weight: 300;
+	max-width: 400px;
+}
+.benefits li {
+	font-weight: 300;
+}
+.testimonial {
+	background: url("../images/header_bg.jpg") no-repeat center bottom rgb(134,141,157);
+	background-size: cover;
+	text-align: center;
+	padding: 50px 0;
+	font-size: 20px;
+}
+.testimonial p {
+	color: rgb(255,255,255);
+
+}
+.testimonial blockquote {
+	color: rgb(255,255,255);
+	max-width: 370px;
+	margin: 5px auto;
+	font-style: italic;
+}
+.cta {
+	background-color: #f9e42e;
+	text-align: center;
+	height: 90px;
+	padding: 30px 0px;
+}
+.cta a {
+	color: rgb(255,255,255);
+	background-color: #033048;
+	padding: 10px 45px;
+	text-decoration: none;
+	border-radius: 5px;
+	font-weight: 800;
+	vertical-align: middle;
+}
+.outro {
+	background-color: #121212;
+	text-align: center;
+	padding: 20px;
+}
+.outro li {
+	display: inline-block;
+	margin: 30px 10px;
+}
+.outro p {
+	color: rgb(255,255,255);
+	font-size: 10px;
+	font-weight: 700;
+}
+.outro h3 {
+	color: #f9e42e;
+	font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
