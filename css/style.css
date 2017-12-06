@@ -35,6 +35,7 @@ body {
 	line-height: 1.5;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
+	margin-top: 45px;
 }
 h1 {
 	font-size: 40px;
@@ -47,6 +48,13 @@ h3 {
 }
 p, li {
 	color:  #606161;
+}
+a {
+	color: rgb(255,255,255);
+	text-decoration: none;
+}
+a:visited {
+	color: rgb(255,255,255);
 }
 
 /******************************************
@@ -64,20 +72,47 @@ p, li {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
+.header {
+	background-color: #033048;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+.header h1 {
+	color: rgb(255,255,255);
+	font-weight: 800;
+	font-style: normal;
+	text-align: left;
+	font-size: 30px;
+	float: left;
+}
+.header h1 a:visited {
+	color: rgb(255,255,255);
+}
+.header nav {
+	float: right;
+}
+.header li {
+	display: inline-block;
+	text-align: right;
+	padding: 10px;
+}
+.header li a {
+	color: #f9e42e;
+	
+}
+.header li a:visited  {
+	color: #f9e42e;
+}
+.current-page {
+	color: #f9e42e;
+}
 .intro {
 	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
 	background-size: cover;
 	text-align: center;
 	color: rgb(255,255,255);
 	min-height: 400px;
-}
-.intro h1 {
-	color: rgb(255,255,255);
-	font-weight: 800;
-	font-style: normal;
-	text-align: left;
-	font-size: 30px;
 }
 .intro p {
 	font-weight: 600;
@@ -149,30 +184,29 @@ p, li {
 	padding: 30px 0px;
 }
 .cta a {
-	color: rgb(255,255,255);
 	background-color: #033048;
 	padding: 10px 45px;
-	text-decoration: none;
 	border-radius: 5px;
 	font-weight: 800;
 	font-style: normal;
 	vertical-align: middle;
 }
-.outro {
+.footer {
 	background-color: #121212;
 	text-align: center;
 	padding: 20px;
 }
-.outro h3 {
+.footer h3 {
 	color: #f9e42e;
 	font-weight: 800;
 	font-style: normal;
 }
-.outro li {
+.footer li {
 	display: inline-block;
 	margin: 30px 10px;
+	color: rgb(255,255,255);
 }
-.outro p {
+.footer p {
 	color: rgb(255,255,255);
 	font-size: 10px;
 	font-weight: 600;
