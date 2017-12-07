@@ -66,7 +66,8 @@ a:visited {
 	max-width: 90%;
 	margin: 0 auto;
 	width: 100%;
-	max-width: 700px;
+	max-width: 930px;
+	padding: 0 15px;
 }
 
 /******************************************
@@ -85,9 +86,6 @@ a:visited {
 	text-align: left;
 	font-size: 30px;
 	float: left;
-}
-.header h1 a:visited {
-	color: rgb(255,255,255);
 }
 .header nav {
 	float: right;
@@ -124,7 +122,6 @@ a:visited {
 	padding: 10px 45px;
 	border-radius: 5px; 
 	background-color: #f9e42e;
-	text-decoration: none;
 	color: #033048;
 	font-weight: 800;
 	font-style: normal;
@@ -206,17 +203,54 @@ a:visited {
 	margin: 30px 10px;
 	color: rgb(255,255,255);
 }
+.footer i {
+	font-size: 35px;
+}
 .footer p {
 	color: rgb(255,255,255);
 	font-size: 10px;
 	font-weight: 600;
 	font-style: normal;
+	clear: both;
 }
+.col2 {
+	background-color: #f0efef;
+	padding-bottom: 80px;
+}
+.col2-left {
+	width: 75%;
+	float: left;
+}
+.article-blog {
+	border-bottom: 1px solid #033048;
+	padding: 25px 0;
+}
+.article-blog img {
+	width: 100%;
+}
+.article-blog a {
+	color: #033048;
+	padding-top: 10px;
+	float: right;
+	font-weight: 600;
+	font-style: normal;
+}
+.col2-right {
+	width: 20%;
+	float: right;
+}
+.side-categories {
 
+}
+.side-about {
 
+}
+.side-ad {
 
-
-
+}
+.side-ad img {
+	width: 100%;
+}
 
 
 
